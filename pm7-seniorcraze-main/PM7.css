@@ -1,0 +1,88 @@
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.yellow {
+    color: #CCCC00;
+}
+.orange {
+    color: orange;
+}
+
+
+#low {
+    margin-left: 200px;
+    border: 10px solid;
+    border-color: aqua;
+    border-radius: 15%;
+}
+body {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 12pt;
+    font-family: sans-serif;
+}
+
+div {
+    margin: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.header {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.miniheader {
+    font-size: 30px;
+    font-weight: bold;
+}
+#mainReport {
+    width: 640px;
+
+
+}
+.title {
+    font-size: 100px;
+
+}
+
+img {
+    width: 300px;
+    height: 400px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  #leftcol {
+    position: fixed;
+    left: 670px;
+    top: 0;
+    padding: 8px;
+    background-color: aqua;
+}
